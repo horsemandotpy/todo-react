@@ -1,0 +1,27 @@
+.title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title,
+.deco {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.deco {
+  justify-content: end;
+}
+
+.deco > div {
+  height: 27px;
+  width: 27px;
+  background: no-repeat center url("../assets/images/icon-moon.svg");
+}

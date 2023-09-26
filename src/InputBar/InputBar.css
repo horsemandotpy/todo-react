@@ -1,0 +1,45 @@
+.input-box {
+  display: flex;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  gap: 1rem;
+  margin-top: 5%;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+.input-box__checkbox,
+.input-box__input {
+  display: flex;
+  align-items: center;
+}
+
+.input-box__input input {
+  outline: none;
+  border: none;
+}
+
+input[type="checkbox"] {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+  border: 1px solid blue;
+}
+
+input[type="checkbox"]:checked {
+  appearance: auto;
+  clip-path: circle(50% at 50% 50%);
+  accent-color: red;
+}

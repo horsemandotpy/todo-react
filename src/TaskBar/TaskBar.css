@@ -1,0 +1,41 @@
+.task-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.inputbox,
+.clear-task {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.inputbox {
+  flex-grow: 2;
+  width: 90%;
+}
+
+.inputbox span {
+  width: 80%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.clear-task {
+  justify-content: flex-end;
+}
+
+.clear-task div {
+  height: 27px;
+  width: 27px;
+  cursor: pointer;
+  background: no-repeat center url(../assets/images/icon-cross.svg);
+}
+
+.clear-task div:hover {
+  transform: scale(1.3);
+}
